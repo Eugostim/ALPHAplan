@@ -1,4 +1,8 @@
-# JavaScript-Labmm3
+# ALPHAplan - LabMM3
 Projeto Labmm3
 
-Hello world
+Fábio Gomes;
+
+José Almeida;
+
+Pedro Cunha;
