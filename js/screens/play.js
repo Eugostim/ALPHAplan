@@ -3,6 +3,10 @@ game.PlayScreen = me.ScreenObject.extend({
      *  action to perform on state change
      */
     onResetEvent: function() {
+
+        //fazer load do nivel
+        //me.levelDirector.loadLevel("");
+
         // reset the score
         game.data.score = 0;
 
