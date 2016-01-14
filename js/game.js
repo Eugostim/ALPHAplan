@@ -6,6 +6,7 @@ var game = {
     data : {
         // score
         score : 0
+        // more stuff
     },
 
 
