@@ -136,9 +136,8 @@ game.CoinEntity = me.CollectableEntity.extend({
     // this function is called by the engine, when
     // an object is touched by something (here collected)
     onCollision : function (response, other) {
-        /** aumentar a pontuação
-         *
-         */
+
+        game.data.score+=100;
 
         // verificar que só é colidido uma vez
         this.body.setCollisionMask(me.collision.types.NO_OBJECT);
