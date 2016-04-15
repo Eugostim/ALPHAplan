@@ -3,6 +3,10 @@ game.PlayScreen = me.ScreenObject.extend({
      *  action to perform on state change
      */
     onResetEvent: function() {
+
+        //fazer load do nivel
+        me.levelDirector.loadLevel("map_1");
+
         // reset the score
         game.data.score = 0;
 
@@ -10,6 +14,7 @@ game.PlayScreen = me.ScreenObject.extend({
         this.HUD = new game.HUD.Container();
         me.game.world.addChild(this.HUD);
     },
+
 
     /**
      *  action to perform when leaving this screen (state change)
